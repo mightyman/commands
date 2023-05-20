@@ -66,7 +66,7 @@ class CommandController extends Controller
     /**
      * Update Command
      */
-    public function update(Request $request, $id)
+    public function update(CommandRequest $request, $id)
     {
         $results = $this->command_repo->update($request, $id);
         return $results;
