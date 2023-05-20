@@ -24,7 +24,7 @@
                     <th>Description</th>
                     <th>OS</th>
                     <th>Plaform</th>
-                    <th>Delete</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
