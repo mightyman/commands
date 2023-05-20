@@ -28,7 +28,7 @@ Before you begin, make sure you have the following installed on your system:
 ## Running Migrations and Seeds
 
 1. Run the migrations to create the necessary database tables: `php artisan migrate`
-2. (Optional) Seed the database with initial data (Operating systems and Plaforms): `php artisan db:seed`
+2. (Optional) Seed the database with initial data (Operating systems (Linux, Windows, macOS) and Platforms): `php artisan db:seed`
 
 ## Start the Development Server
 
