@@ -39,7 +39,7 @@
         <select name="operating_system_id" class="form-control">
             <option value="" selected disabled>Choose Platform</option>
             @foreach ($operating_systems as $os)
-                <option value="{{$os->id}}">{{$os->name}}</option>
+                <option value="{{$os->id}}" @if($os->id == $command->operating_system_id) selected @endif>{{$os->name}}</option>
             @endforeach
         </select>
     </div>
