@@ -23,7 +23,7 @@
                     <th>Command</th>
                     <th>Description</th>
                     <th>OS</th>
-                    <th>Plaform</th>
+                    <th>Platform</th>
                     <th>Action</th>
                 </tr>
             </thead>
